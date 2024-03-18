@@ -1,7 +1,11 @@
 package main
 
-import mutex "github.com/karankumarshreds/concurrency"
+import (
+    "github.com/karankumarshreds/concurrency/mutex"
+    "github.com/karankumarshreds/concurrency/deadlock"
+)
 
 func main() {
-    mutex.ExampleA()
+    mutex.Main()
+    deadlock.Main()
 }

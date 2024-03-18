@@ -1,0 +1,4 @@
+package mutex
+
+func Main() {
+}
